@@ -1,0 +1,8 @@
+.ignore
+aes
+models
+exports
+**/.ignore
+pickle
+*.docx
+.DS_Store
