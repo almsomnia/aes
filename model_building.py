@@ -7,8 +7,8 @@ def build_model(input_dim):
    model = keras.Sequential()
 
    # Experimental: 128 Neuron
-   model.add(layers.Dense(128, input_dim=input_dim, activation='relu'))
-   model.add(layers.Dropout(0.4))
+   # model.add(layers.Dense(128, input_dim=input_dim, activation='relu'))
+   # model.add(layers.Dropout(0.4))
 
    # Layer 1: 64 Neuron
    model.add(layers.Dense(64, input_dim=input_dim, activation='relu'))
